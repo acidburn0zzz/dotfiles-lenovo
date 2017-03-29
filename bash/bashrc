@@ -70,6 +70,10 @@ if [ -f ~/.config/bash/bash_aliases ]; then
 fi
 
 
+# Set editor
+export EDITOR="vim"
+
+
 # Coloured man pages
 man() {
     env LESS_TERMCAP_mb=$'\E[01;31m' \
