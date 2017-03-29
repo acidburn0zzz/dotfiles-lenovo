@@ -64,6 +64,12 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 
+# Source aliases
+if [ -f ~/.config/bash/bash_aliases ]; then
+    . ~/.config/bash/bash_aliases
+fi
+
+
 # Coloured man pages
 man() {
     env LESS_TERMCAP_mb=$'\E[01;31m' \
