@@ -26,6 +26,9 @@ hc keybind $Mod-Shift-c close
 
 # custom keybindings
 hc keybind $Mod-Return spawn urxvt
+hc keybind XF86AudioMute spawn pulseaudio-ctl mute
+hc keybind XF86AudioRaiseVolume spawn pulseaudio-ctl up
+hc keybind XF86AudioLowerVolume spawn pulseaudio-ctl down
 hc keybind $Mod-d spawn dmenu_run -q -h 30 -fn "Ubuntu Mono-11" -x 140 -y 369 -w 1000 -nb black -nf white -sb white -sf black
 hc keybind $Mod-x spawn ~/.config/herbstluftwm/dmenu2-power-menu.sh
 
