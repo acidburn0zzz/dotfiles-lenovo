@@ -59,7 +59,7 @@ alias gitc='git commit -v'
 alias gitp='git push'
 alias gitl='git log --graph --oneline --decorate'
 alias gits='git status'
-alias gitinfo='echo; git log -n 12 --graph --oneline --decorate; echo; git status; echo'
+alias giti='echo; git log -n 12 --graph --oneline --decorate; echo; git status; echo'
 
 # misc
 alias df='df -h -T | grep -v tmpfs'
