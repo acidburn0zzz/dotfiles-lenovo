@@ -6,7 +6,7 @@ URxvt.scrollBar: false
 URxvt.depth: 32
 URxvt.background: [80]#000000
 URxvt.foreground: #c5c8c6
-URxvt.font: xft:Ubuntu Mono:size=9
+URxvt.font: xft:Ubuntu Mono:size=11
 
 
 ! -- Solarized color scheme for the X Window System -- !
